@@ -1,9 +1,15 @@
 import React from 'react';
 import Header from './elements/Header';
+import Home from './Home';
 
-const App = () =>
+const App = () => (
+
     <div>
-        <Header></Header>
-    </div>;
+        <Header/>
+        <Home/>
+    </div>
+
+)
+
 
 export default App;
