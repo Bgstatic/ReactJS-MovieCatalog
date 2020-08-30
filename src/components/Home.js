@@ -17,7 +17,15 @@ const Home = () => {
 
     const [{ state, loading, error }, fetchMovies] = useHomeFetch();
     const [searchTerm, setSearchTerm] = useState('');
-    console.log(state);
+
+    const loadMoreMovies = () => {
+
+        const searchEndpoint = `${API_URL}search/movie?api_key=${API_KEY}&query=${searchTerm}&pahe=${state.currentPage + 1}`;
+        const popularEndpoint = `${API_URL}movie/popular?api_key=${API_KEY}&page=${state.currentPage + 1}`;
+        const endpoint = searchTerm ? searchEndpoint : popularEndpoint;
+
+        fetchMovies(endpoint);
+    }
 
     if (error) return <div>Error Not Loading</div>
     if (!state.movies[0]) return <Spinner />
@@ -40,17 +48,19 @@ const Home = () => {
                             movieId={movie.id}
                             movieName={movie.original_title}
                         />
-                    ))      
+                    ))
                 }
 
             </Grid>
-            <MovieThumb />
-            <Spinner />
-            <LoadMoreBtn />
+            {loading && <Spinner />}
+            {state.currentPage < state.totalPages && !loading && (
+
+                <LoadMoreBtn text="Load More" callback={loadMoreMovies} />
+
+            )}
 
         </React.Fragment>
-
-    )
+    );
 
 }
 
