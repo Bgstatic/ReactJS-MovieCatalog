@@ -7,7 +7,12 @@ import Grid from './elements/Grid';
 import spinner from './elements/Spinner';
 import Spinner from './elements/Spinner';
 
+import { useMovieFetch } from './hooks/useMovieFetch';
+
 const Movie = ({ movieId }) => {
+
+    const[movie, loading, error] = useMovieFetch(movieId);
+
     return (
         <>
             <Navigation />
