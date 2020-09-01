@@ -2,7 +2,6 @@ import React from 'react';
 import { NoImage } from '../images/no_image.jpg';
 import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 import MovieThumb from './MovieThumb';
-import Movie from '../Movie';
 import { StyledMovieInfo } from '../styles/StyledMovieInfo';
 
 const MovieInfo = ({ movie }) =>

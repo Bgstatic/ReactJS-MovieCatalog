@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SEARCH_BASE_URL, POPULAR_BASE_URL, API_BASE_URL, POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from '../config';
+import { SEARCH_BASE_URL, POPULAR_BASE_URL, POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from '../config';
 
 import HeroImage from './elements/HeroImage';
 import SearchBar from './elements/SearchBar';
