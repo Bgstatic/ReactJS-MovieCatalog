@@ -16,6 +16,11 @@ export const StyledActor = styled.div`
     border-radius: 15px;
   }
 
+  img:hover { 
+  -webit-border-radius: 15px solid dark; 
+  background: #fff;
+  } 
+  
   .actor-name {
     display: block;
     font-size: 18px;
