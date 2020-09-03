@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import { POPULAR_BASE_URL } from '../../config';
 
 const useHomeFetch = () => {
@@ -32,15 +31,18 @@ const useHomeFetch = () => {
             }));
 
         } catch (error) {
+
             setError(true)
             console.log(error);
         }
+
         setLoading(false);
     }
 
     useEffect(() => {
 
         fetchMovies(POPULAR_BASE_URL);
+        
     }, [])
 
     return [{ state, loading, error }, fetchMovies];
