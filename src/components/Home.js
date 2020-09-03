@@ -42,7 +42,7 @@ const Home = () => {
 
         <React.Fragment>
 
-            { !searchTerm && (
+            {!searchTerm && (
                 <HeroImage
                     image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.heroImage.backdrop_path}`}
                     title={state.heroImage.original_title}
