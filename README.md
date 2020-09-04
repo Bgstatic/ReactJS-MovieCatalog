@@ -14,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Header](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/Header.png)
 
+![MainPage_1](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/MainPage_1.png)
+
 ![netlify](https://blog.back4app.com/wp-content/uploads/2019/11/netlify-alternatives-1140x515.png)
 
 
