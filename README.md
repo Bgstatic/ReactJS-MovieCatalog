@@ -6,3 +6,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * Made with **React.js, React-Hooks and The Movie Database API**
 
+* For more information and documentation about API -->  [The Movie Database (TMDb)](https://www.themoviedb.org/)-[Documentation](https://www.themoviedb.org/documentation/api)
+
