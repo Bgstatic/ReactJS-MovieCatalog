@@ -12,6 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![The Movie Database](https://www.underconsideration.com/brandnew/archives/the_movie_db_logo_before_after.png)
 
+--
+
 ![Header](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/Header.png)
 
 ![MainPage_1](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/MainPage_1.png)
@@ -23,6 +25,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![MoviePage_1](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/MoviePage_1.png)
 
 ![Actors](https://github.com/Bgstatic/ReactMovieApp/blob/master/readme_img/Actors.png)
+
+--
 
 ![netlify](https://blog.back4app.com/wp-content/uploads/2019/11/netlify-alternatives-1140x515.png)
 
