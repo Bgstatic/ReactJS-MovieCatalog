@@ -10,6 +10,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * Powered by **The Movie Database (TMDb) and Netlify**
 
-![The Movie Database](https://imag.malavida.com/mvimgbig/download-fs/the-movie-db-25210-0.jpg) ![netlify](https://blog.back4app.com/wp-content/uploads/2019/11/netlify-alternatives-1140x515.png)
+![netlify](https://blog.back4app.com/wp-content/uploads/2019/11/netlify-alternatives-1140x515.png)
 
 
